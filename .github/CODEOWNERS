@@ -1,0 +1,36 @@
+# CODEOWNERS file for order-adapter-142
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-search @Armor-test/squad-research @Armor-test/dept-notifications
+
+# Directory ownership
+/api/ @Armor-test/squad-ml @Armor-test/dept-billing
+/third_party/ @Armor-test/unit-governance @Armor-test/squad-cloud
+/core/ @Armor-test/dept-data @Armor-test/team-research
+/app/ @Armor-test/squad-api @Armor-test/dept-security @Armor-test/squad-qa
+/migrations/ @Armor-test/team-reporting @Armor-test/team-notifications
+/internal/ @Armor-test/squad-research @Armor-test/dept-reliability @Armor-test/team-frontend
+/controllers/ @Armor-test/team-notifications @Armor-test/dept-data
+/test/ @Armor-test/grp-ui @Armor-test/team-research
+/scripts/ @Armor-test/grp-ui @Armor-test/squad-apps
+/modules/ @Armor-test/team-frontend @Armor-test/squad-research @Armor-test/squad-search
+
+# File type ownership
+*.scss @Armor-test/unit-design @Armor-test/team-research
+*.sh @Armor-test/dept-ui @Armor-test/squad-product @Armor-test/dept-security
+*.rb @Armor-test/team-frontend @Armor-test/team-security @Armor-test/squad-payments
+*.php @Armor-test/squad-product @Armor-test/squad-cache
+*.scala @Armor-test/team-governance @Armor-test/squad-qa
+*.swift @Armor-test/grp-ui @Armor-test/grp-integration
+*.graphql @Armor-test/dept-logging @Armor-test/dept-release @Armor-test/team-governance
+*.c @Armor-test/unit-devops @Armor-test/dept-reporting @Armor-test/unit-design
+*.gradle @Armor-test/dept-automation @Armor-test/team-research @Armor-test/grp-reporting
+*.css @Armor-test/squad-reporting @Armor-test/grp-ui
+*.js @Armor-test/squad-ux @Armor-test/dept-test @Armor-test/unit-design
+*.toml @Armor-test/team-research @Armor-test/squad-api
+*.lock @Armor-test/team-security @Armor-test/grp-ui @Armor-test/dept-reliability
+*.jsx @Armor-test/dept-reporting @Armor-test/squad-research
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
